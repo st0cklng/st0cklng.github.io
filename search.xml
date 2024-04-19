@@ -6,8 +6,11 @@
     <content><![CDATA[<p>TEST</p>
 ]]></content>
       <categories>
-        <category>tEST</category>
+        <category>test</category>
       </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
