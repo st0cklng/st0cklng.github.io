@@ -1351,3 +1351,45 @@ body[data-theme=dark] .search-article input[type=search] {
 body[data-theme=dark] .search-article input[type=search]::-webkit-input-placeholder {
   color: rgba(128, 128, 128, 0.8);
 }
+
+/* 定义Sass变量$grey */
+.category-all-page {
+  margin: 30px 40px 30px 40px;
+  position: relative;
+  display: flex; /* 使用flexbox来居中内部元素 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 100%; /* 占据全部可用高度 */
+  min-height: 70vh;
+}
+.category-all-page h3 {
+  margin: 20px 0;
+}
+.category-all-page .category-all-title {
+  text-align: center;
+}
+.category-all-page .category-all {
+  margin-top: 20px;
+}
+.category-all-page .category-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.category-all-page .category-list-item {
+  margin: 10px 10px;
+}
+.category-all-page .category-list-count {
+  color: #808080;
+}
+.category-all-page .category-list-count:before {
+  display: inline;
+  content: " (";
+}
+.category-all-page .category-list-count:after {
+  display: inline;
+  content: ") ";
+}
+.category-all-page .category-list-child {
+  padding-left: 10px;
+}
